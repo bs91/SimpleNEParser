@@ -1,6 +1,6 @@
-var SimpleEmail = require('./SimpleNEParser');
+var SimpleEmail = require('../lib/SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
 //  console.log(email);
 });
 
