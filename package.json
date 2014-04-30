@@ -1,0 +1,24 @@
+{
+  "name": "SimpleNEParser",
+  "version": "0.1.0",
+  "description": "A simple Node.js email parser.",
+  "main": "lib/SimpleNEParser.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Email",
+    "Parser",
+    "Email Parser"
+  ],
+  "author": "Blake Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
