@@ -151,7 +151,7 @@ bzwdHWSvBzEfpP8ICrPY5Id2wnCHelpZQ8wKsahXpAG0/eZcGNU4fzvH3zyW3j6GRhDDKMI40cJs...
 
 ### SimpleEmail.replyTo
 
-Use `SimpleEmail.replyTo` returns the value from the Return-Path header.
+`SimpleEmail.replyTo` returns the value from the Return-Path header.
 
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
@@ -165,7 +165,7 @@ SimpleEmail.fromPath('data.txt', function(email) {
 
 ### SimpleEmail.delivered
 
-Use `SimpleEmail.delivered` returns the value from the the first Received header, this informs you
+`SimpleEmail.delivered` returns the value from the the first Received header, this informs you
 of when the message was actually delivered.
 
 ```javascript
@@ -180,7 +180,7 @@ SimpleEmail.fromPath('data.txt', function(email) {
 
 ### SimpleEmail.sent
 
-Use `SimpleEmail.sent` returns the value from the the Date header, this informs you
+`SimpleEmail.sent` returns the value from the the Date header, this informs you
 of when the message was first sent.
 
 ```javascript
@@ -195,7 +195,7 @@ SimpleEmail.fromPath('data.txt', function(email) {
 
 ### SimpleEmail.from
 
-Use `SimpleEmail.from` returns the value from the the From header, this informs you
+`SimpleEmail.from` returns the value from the the From header, this informs you
 of the name and email that were seen in the from header. (Use this data at your own risk due to the fact that
 it can be manipulated by anyone.)
 
@@ -211,7 +211,7 @@ SimpleEmail.fromPath('data.txt', function(email) {
 
 ### SimpleEmail.to
 
-Use `SimpleEmail.to` returns the value from the the To header, this informs you
+`SimpleEmail.to` returns the value from the the To header, this informs you
 usually of the name and email of who the email was sent to.
 
 ```javascript
@@ -226,7 +226,7 @@ SimpleEmail.fromPath('data.txt', function(email) {
 
 ### SimpleEmail.subject
 
-Use `SimpleEmail.subject` returns the value from the the Subject header, this informs you 
+`SimpleEmail.subject` returns the value from the the Subject header, this informs you 
 of the subject of them email sent.
 
 ```javascript
