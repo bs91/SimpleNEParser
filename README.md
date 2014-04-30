@@ -245,5 +245,5 @@ Credits
 
 XxBlakeFailxX
 
-AngularDevise is maintained by XxBlakeFailxX, and
+SimpleNEParser is maintained by XxBlakeFailxX, and
 is distributed under the [MIT License](/LICENSE.md).
