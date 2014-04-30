@@ -5,7 +5,7 @@
   "main": "lib/SimpleNEParser.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/xxblakefailxx/SimpleNEParser"
   },
   "keywords": [
     "Email",
@@ -15,7 +15,7 @@
   "author": "Blake Smith",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/xxblakefailxx/SimpleNEParser/issues"
   },
   "dependencies": {
   },
