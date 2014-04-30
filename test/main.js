@@ -1,4 +1,4 @@
-var SimpleEmail = require('./SimpleNEParse');
+var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath('data.txt', function(email) {
 //  console.log(email);
