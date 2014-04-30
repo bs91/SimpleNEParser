@@ -16,7 +16,7 @@ Require the SimpleNEParser as a module and setup your document using either the 
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
 //  Use parsed email object here.
 });
 
@@ -46,7 +46,7 @@ SimpleEmail.fromString('nowai from string', function(email) {
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.text);
 });
 
@@ -77,7 +77,7 @@ To: Anon2 <anon2@gmail.com>
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.html);
 });
 
@@ -116,7 +116,7 @@ lt;<a href=3D"mailtoanon2@gmail.com">anon2@gmail.com</a>&gt;<br><br>=
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.attachments);
 });
 
@@ -156,7 +156,7 @@ bzwdHWSvBzEfpP8ICrPY5Id2wnCHelpZQ8wKsahXpAG0/eZcGNU4fzvH3zyW3j6GRhDDKMI40cJs...
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.replyTo);
 });
 
@@ -171,7 +171,7 @@ of when the message was actually delivered.
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.delivered);
 });
 
@@ -186,7 +186,7 @@ of when the message was first sent.
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.sent);
 });
 
@@ -202,7 +202,7 @@ it can be manipulated by anyone.)
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.from);
 });
 
@@ -217,7 +217,7 @@ usually of the name and email of who the email was sent to.
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.to);
 });
 
@@ -232,7 +232,7 @@ of the subject of them email sent.
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
 
-SimpleEmail.fromPath('data.txt', function(email) {
+SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   Console.log(SimpleEmail.subject);
 });
 
