@@ -27,7 +27,7 @@ SimpleEmail.fromString('nowai from string', function(email) {
 
 ### SimpleEmail.raw
 
-`SimpleEmail.raw` returns a the email exactly how it was read in.:
+`SimpleEmail.raw` returns the email exactly how it was read in.:
 
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
