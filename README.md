@@ -33,7 +33,7 @@ SimpleEmail.fromString('nowai from string', function(email) {
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromString('nowai from string', function(email) {
-  Console.log(email.raw);
+  console.log(email.raw);
 });
 
 // Returns: "nowai from string"
@@ -47,7 +47,7 @@ SimpleEmail.fromString('nowai from string', function(email) {
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.text);
+  console.log(email.text);
 });
 
 /* Returns: 
@@ -78,7 +78,7 @@ To: Anon2 <anon2@gmail.com>
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.html);
+  console.log(email.html);
 });
 
 /* Returns: 
@@ -117,7 +117,7 @@ lt;<a href=3D"mailtoanon2@gmail.com">anon2@gmail.com</a>&gt;<br><br>=
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.attachments);
+  console.log(email.attachments);
 });
 
 /* Returns: 
@@ -157,7 +157,7 @@ bzwdHWSvBzEfpP8ICrPY5Id2wnCHelpZQ8wKsahXpAG0/eZcGNU4fzvH3zyW3j6GRhDDKMI40cJs...
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.replyTo);
+  console.log(email.replyTo);
 });
 
 // Returns: "<anon@gmail.com>"
@@ -172,7 +172,7 @@ of when the message was actually delivered.
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.delivered);
+  console.log(email.delivered);
 });
 
 // Returns: "Thu, 3 Jan 2013 14:22:30 -0800 (PST)"
@@ -187,7 +187,7 @@ of when the message was first sent.
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.sent);
+  console.log(email.sent);
 });
 
 // Returns: "Thu, 3 Jan 2013 17:22:29 -0500"
@@ -203,7 +203,7 @@ it can be manipulated by anyone.)
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.from);
+  console.log(email.from);
 });
 
 // Returns: "Anon <anon@gmaiil.com>"
@@ -218,7 +218,7 @@ usually of the name and email of who the email was sent to.
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.to);
+  console.log(email.to);
 });
 
 // Returns: "Anon2 <anon2@gmaiil.com>"
@@ -233,7 +233,7 @@ of the subject of them email sent.
 var SimpleEmail = require('./SimpleNEParser');
 
 SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
-  Console.log(email.subject);
+  console.log(email.subject);
 });
 
 // Returns: "iOS woes"
