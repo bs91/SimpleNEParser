@@ -1,0 +1,11 @@
+MIME-Version: 1.0
+Received: by 10.170.69.213 with HTTP; Thu, 24 Apr 2014 16:01:05 -0700 (PDT)
+Date: Thu, 24 Apr 2014 19:01:05 -0400
+Delivered-To: xxblakefailxx@gmail.com
+Message-ID: <CAHjYxv5bn9UBdrARtXryic7kRpBH3_bTdqu83iBtz-uCW40caw@mail.gmail.com>
+Subject: javascript module pattern
+From: Blake Smith <xxblakefailxx@gmail.com>
+To: Blake Smith <xxblakefailxx@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+
+http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
