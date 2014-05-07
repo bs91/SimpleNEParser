@@ -166,7 +166,7 @@ SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
 ### SimpleEmail.delivered
 
 `SimpleEmail.delivered` returns the value from the the first Received header, this informs you
-of when the message was actually delivered.
+of when the message was actually delivered and who it was last sent by.
 
 ```javascript
 var SimpleEmail = require('./SimpleNEParser');
@@ -175,7 +175,7 @@ SimpleEmail.fromPath(__dirname + '/data.txt', function(email) {
   console.log(email.delivered);
 });
 
-// Returns: "Thu, 3 Jan 2013 14:22:30 -0800 (PST)"
+// Returns: "by 10.101.136.9 with SMTP id o9csp692942ann;\r\n	Thu, 3 Jan 2013 14:22:30 -0800 (PST)"
 ```
 
 ### SimpleEmail.sent
